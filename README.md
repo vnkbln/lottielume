@@ -2,6 +2,8 @@
 
 GPU Lottie sources for Resolume: **Lottie Player** and **Lottie Emitter**.
 
+![Lottie Player running in Resolume Arena](assets/preview.png)
+
 **1.0.0-beta.1** — first public Windows beta.
 
 ## Features
