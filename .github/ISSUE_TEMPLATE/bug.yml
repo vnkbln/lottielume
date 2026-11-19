@@ -1,0 +1,27 @@
+name: Bug report
+description: Report a reproducible plugin or animation problem
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: Plugin and Resolume versions
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Windows version, GPU and driver
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce and expected result
+      description: Include Player/Emitter, output size, Crop/Fit settings and instance count.
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Minimal sample
+      description: A small JSON, screenshot or recording is useful. Remove private content first.

@@ -1,0 +1,19 @@
+/deps/
+/external/
+/.tools/
+/build*/
+/output/
+*.user
+__pycache__/
+*.py[cod]
+/.vs/
+/AE/
+/Lottie_Icons/
+/assets/animations/
+/assets/images/
+/assets/sound/
+/assets/Raster-Image.json
+/assets/palette.png
+
+# Private authoring original; public copy is assets/demo/LottieLogo.json.
+/assets/LottieLogo.json

@@ -1,0 +1,109 @@
+diff --git a/src/loaders/lottie/tvgLottieModel.cpp b/src/loaders/lottie/tvgLottieModel.cpp
+index 2837606..81ea5b8 100644
+--- a/src/loaders/lottie/tvgLottieModel.cpp
++++ b/src/loaders/lottie/tvgLottieModel.cpp
+@@ -180,12 +180,33 @@ Point LottieTextFollowPath::position(float lenSearched, float& angle)
+ }
+ 
+ 
++template<typename T>
++static LottieProperty* overrideEffectProperty(T* target, LottieProperty* prop, bool release)
++{
++    LottieProperty* backup = nullptr;
++    if (release) target->release();
++    else backup = new T(*target);
++    target->copy(*static_cast<T*>(prop), false);
++    return backup;
++}
++
++static LottieProperty* overrideEffectProperty(LottieProperty* target, LottieProperty* prop, bool release)
++{
++    if (target->type == LottieProperty::Type::Color)
++        return overrideEffectProperty(static_cast<LottieColor*>(target), prop, release);
++    if (target->type == LottieProperty::Type::Float)
++        return overrideEffectProperty(static_cast<LottieFloat*>(target), prop, release);
++    return nullptr;
++}
++
++
+ void LottieSlot::reset()
+ {
+     if (!overridden) return;
+ 
+     ARRAY_FOREACH(pair, pairs) {
+-        pair->obj->override(pair->prop, true);
++        if (pair->direct) overrideEffectProperty(pair->direct, pair->prop, true);
++        else pair->obj->override(pair->prop, true);
+         delete(pair->prop);
+         pair->prop = nullptr;
+     }
+@@ -199,7 +220,8 @@ void LottieSlot::apply(LottieProperty* prop, bool byDefault)
+ 
+     //apply slot object to all targets
+     ARRAY_FOREACH(pair, pairs) {
+-        auto backup = pair->obj->override(prop, release);
++        auto backup = pair->direct ? overrideEffectProperty(pair->direct, prop, release)
++                                   : pair->obj->override(prop, release);
+         if (!release) pair->prop = backup;
+     }
+ 
+diff --git a/src/loaders/lottie/tvgLottieModel.h b/src/loaders/lottie/tvgLottieModel.h
+index efbead8..9d6e08b 100644
+--- a/src/loaders/lottie/tvgLottieModel.h
++++ b/src/loaders/lottie/tvgLottieModel.h
+@@ -1190,6 +1190,7 @@ struct LottieSlot
+     {
+         LottieObject* obj;
+         LottieProperty* prop;
++        LottieProperty* direct = nullptr; // Effect properties have no LottieObject owner.
+     };
+ 
+     void add(uint32_t slotcode, LottieProperty* prop);
+diff --git a/src/loaders/lottie/tvgLottieParser.cpp b/src/loaders/lottie/tvgLottieParser.cpp
+index ee2728b..d4c9337 100644
+--- a/src/loaders/lottie/tvgLottieParser.cpp
++++ b/src/loaders/lottie/tvgLottieParser.cpp
+@@ -486,11 +486,12 @@ void LottieParser::registerSlot(LottieObject* obj, const char* sid, LottieProper
+     //append object if the slot already exists.
+     ARRAY_FOREACH(p, comp->slots) {
+         if ((*p)->sid != val) continue;
+-        (*p)->pairs.push({obj});
++        (*p)->pairs.push({obj, nullptr, obj ? nullptr : &prop});
+         prop.sid = val;
+         return;
+     }
+     comp->slots.push(new LottieSlot(context.layer, context.parent, val, obj, prop.type));
++    if (!obj) comp->slots.last()->pairs.last().direct = &prop;
+     prop.sid = val;
+ }
+ 
+@@ -1429,8 +1430,16 @@ bool LottieParser::parseEffect(LottieEffect* effect, void(LottieParser::*func)(L
+             else if (KEY_AS("v") && (!custom || property)) {
+                 if (peekType() == kObjectType) {
+                     enterObject();
++                    // Fill color/opacity slots target effect properties directly.
++                    LottieProperty* slotProperty = nullptr;
++                    if (effect->type == LottieEffect::Fill) {
++                        auto fill = static_cast<LottieFxFill*>(effect);
++                        if (idx == 2) slotProperty = &fill->color;
++                        else if (idx == 6) slotProperty = &fill->opacity;
++                    }
+                     while (auto key = nextObjectKey()) {
+                         if (KEY_AS("k")) (this->*func)(effect, idx++);
++                        else if (slotProperty && KEY_AS("sid")) registerSlot(nullptr, getString(), *slotProperty);
+                         else skip();
+                     }
+                 } else (this->*func)(effect, idx++);
+diff --git a/src/renderer/gpu_engine/gl/tvgGlShaderSrc.cpp b/src/renderer/gpu_engine/gl/tvgGlShaderSrc.cpp
+index 1f0bc0c..f3b7242 100644
+--- a/src/renderer/gpu_engine/gl/tvgGlShaderSrc.cpp
++++ b/src/renderer/gpu_engine/gl/tvgGlShaderSrc.cpp
+@@ -1212,7 +1212,7 @@ void main()
+ {
+     vec4 orig = texture(uSrcTexture, vUV);
+     vec4 fill = uParams.params[0];
+-    FragColor = fill * orig.a * fill.a;
++    FragColor = vec4(fill.rgb, 1.0) * orig.a * fill.a;
+ } 
+ )";
+ 

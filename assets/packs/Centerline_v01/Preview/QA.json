@@ -1,0 +1,3480 @@
+[
+  {
+    "file": "Shapes/Circles/Halo.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Цельный круг, встречные дуги и четыре орбитальных штриха. Для мягкого скретча.",
+    "bytes": 4985,
+    "sampled_safe_zone_bounds_in_source_units": [
+      253.91,
+      253.91,
+      746.09,
+      746.09
+    ],
+    "sampled_ink_area_percent": [
+      1.476,
+      1.517,
+      1.598,
+      1.517
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.672,
+      0.733,
+      0.799,
+      0.733
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00505
+  },
+  {
+    "file": "Shapes/Squares/Floating_Frame.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Два слегка расходящихся квадратных контура и четыре небольших спутника.",
+    "bytes": 4621,
+    "sampled_safe_zone_bounds_in_source_units": [
+      273.44,
+      273.44,
+      726.56,
+      726.56
+    ],
+    "sampled_ink_area_percent": [
+      1.555,
+      1.619,
+      1.39,
+      1.619
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.75,
+      0.7,
+      0.654,
+      0.7
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.01451
+  },
+  {
+    "file": "Shapes/Triangles/Prism_Signal.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#f318e8",
+      "#ffffff"
+    ],
+    "description": "Треугольный знак с внутренним рисующимся контуром; три нейтральных акцента.",
+    "bytes": 4243,
+    "sampled_safe_zone_bounds_in_source_units": [
+      257.81,
+      246.09,
+      726.56,
+      671.88
+    ],
+    "sampled_ink_area_percent": [
+      1.089,
+      1.259,
+      1.411,
+      1.259
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.524,
+      0.608,
+      0.687,
+      0.608
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 3e-05
+  },
+  {
+    "file": "Shapes/Hexagons/Hex_Relay.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 8,
+    "colors": [
+      "#277ff4",
+      "#00f3e9"
+    ],
+    "description": "Шестигранная оболочка, спокойное встречное движение и шесть коротких рёбер.",
+    "bytes": 5899,
+    "sampled_safe_zone_bounds_in_source_units": [
+      289.06,
+      281.25,
+      710.94,
+      718.75
+    ],
+    "sampled_ink_area_percent": [
+      1.622,
+      1.566,
+      1.558,
+      1.566
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.704,
+      0.679,
+      0.656,
+      0.679
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00744
+  },
+  {
+    "file": "One_Shot/Circles/Ring_Wake.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Пять тонких круговых волн ускоряются от центра и растворяются за краями.",
+    "bytes": 6708,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      2.139,
+      7.916,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.678,
+      2.422,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Square_Tunnel.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Пять квадратных рамок дают короткий пролёт через геометрический тоннель.",
+    "bytes": 7027,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.875,
+      13.681,
+      4.071
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.611,
+      4.576,
+      0.721
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Hex_Echo.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Четыре разреженных шестигранных эха с небольшим доворотом.",
+    "bytes": 6031,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      2.074,
+      8.894,
+      0.108
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.653,
+      2.919,
+      0.011
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Prism_Flight.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Шесть небольших контурных треугольников разлетаются от центра к зрителю.",
+    "bytes": 9576,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.256,
+      0.668,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.093,
+      0.287,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Radial_Streaks.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Восемь коротких радиальных штрихов; подходит для частых ударов без сплошной заливки.",
+    "bytes": 12444,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.269,
+      0.508,
+      0.192
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.074,
+      0.234,
+      0.03
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Flight.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть маленьких крестов приближаются и уходят в края.",
+    "bytes": 9696,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.237,
+      0.562,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.097,
+      0.269,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "BG/Circles/Quiet_Depth.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Пять очень тихих контурных колец: непрерывное движение из глубины, без яркого центра.",
+    "bytes": 76912,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      6.775,
+      6.479,
+      5.988,
+      5.521
+    ],
+    "sampled_equivalent_alpha_percent": [
+      2.453,
+      2.193,
+      2.152,
+      2.298
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.63307
+  },
+  {
+    "file": "BG/Geometry/Orbital_Dust.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 9,
+    "colors": [
+      "#277ff4",
+      "#ffffff"
+    ],
+    "description": "Геометрическая пыль непрерывно разлетается из внутренней области, без флипфлопа и коллективного возврата.",
+    "bytes": 419450,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.307,
+      0.314,
+      0.352,
+      0.293
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.125,
+      0.136,
+      0.142,
+      0.116
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.09582
+  },
+  {
+    "file": "BG/Lines/Quiet_Meridians.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 7,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Тихие внешние лучи и неполное кольцо оставляют пространство центральному объекту.",
+    "bytes": 5767,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      1.811,
+      1.715,
+      1.692,
+      1.715
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.599,
+      0.598,
+      0.602,
+      0.598
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00391
+  },
+  {
+    "file": "Shapes/Circles/Orbit_Planes.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Три сплющенные орбитальные плоскости меняют наклон вокруг неподвижного центра.",
+    "bytes": 2914,
+    "sampled_safe_zone_bounds_in_source_units": [
+      300.78,
+      300.78,
+      699.22,
+      699.22
+    ],
+    "sampled_ink_area_percent": [
+      1.556,
+      1.674,
+      1.758,
+      1.674
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.5,
+      0.586,
+      0.659,
+      0.586
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.0073
+  },
+  {
+    "file": "Shapes/Circles/Iris_Bloom.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Шесть дуговых лепестков раскрываются как диафрагма, сохраняя круговую границу.",
+    "bytes": 6251,
+    "sampled_safe_zone_bounds_in_source_units": [
+      250.0,
+      250.0,
+      750.0,
+      750.0
+    ],
+    "sampled_ink_area_percent": [
+      1.808,
+      1.845,
+      1.863,
+      1.845
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.807,
+      0.819,
+      0.82,
+      0.819
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00352
+  },
+  {
+    "file": "Shapes/Squares/Corner_Hinges.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 5,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Четыре отдельные угловые скобы раскрываются на шарнирах и собираются обратно.",
+    "bytes": 4475,
+    "sampled_safe_zone_bounds_in_source_units": [
+      292.97,
+      292.97,
+      707.03,
+      707.03
+    ],
+    "sampled_ink_area_percent": [
+      0.25,
+      0.438,
+      0.444,
+      0.438
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.202,
+      0.204,
+      0.203,
+      0.204
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 4e-05
+  },
+  {
+    "file": "Shapes/Squares/Sliding_Tiles.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 9,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Компактная сетка из девяти рамок сдвигает ряды навстречу друг другу.",
+    "bytes": 7333,
+    "sampled_safe_zone_bounds_in_source_units": [
+      304.69,
+      343.75,
+      695.31,
+      656.25
+    ],
+    "sampled_ink_area_percent": [
+      1.721,
+      1.57,
+      1.709,
+      1.57
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.741,
+      0.735,
+      0.742,
+      0.735
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00064
+  },
+  {
+    "file": "Shapes/Triangles/Tripod_Fold.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#f318e8",
+      "#ffffff"
+    ],
+    "description": "Треугольник разбирается на три поворачивающихся ребра вокруг малого знака.",
+    "bytes": 3431,
+    "sampled_safe_zone_bounds_in_source_units": [
+      250.0,
+      308.59,
+      671.88,
+      742.19
+    ],
+    "sampled_ink_area_percent": [
+      0.748,
+      0.754,
+      0.748,
+      0.754
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.365,
+      0.364,
+      0.363,
+      0.364
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00439
+  },
+  {
+    "file": "Shapes/Triangles/Prism_Fan.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#f318e8",
+      "#ffffff"
+    ],
+    "description": "Пять треугольных контуров расходятся веером и снова сходятся, без тоннельного масштаба.",
+    "bytes": 4875,
+    "sampled_safe_zone_bounds_in_source_units": [
+      324.22,
+      343.75,
+      675.78,
+      687.5
+    ],
+    "sampled_ink_area_percent": [
+      2.554,
+      2.545,
+      2.321,
+      2.545
+    ],
+    "sampled_equivalent_alpha_percent": [
+      1.191,
+      1.122,
+      0.997,
+      1.122
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.0189
+  },
+  {
+    "file": "Shapes/Hexagons/Edge_Runners.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#277ff4",
+      "#ffffff"
+    ],
+    "description": "Шесть коротких световых участков непрерывно бегут по шестигранной границе.",
+    "bytes": 5616,
+    "sampled_safe_zone_bounds_in_source_units": [
+      281.25,
+      281.25,
+      718.75,
+      718.75
+    ],
+    "sampled_ink_area_percent": [
+      1.184,
+      1.184,
+      1.184,
+      1.184
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.495,
+      0.495,
+      0.495,
+      0.495
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.23324
+  },
+  {
+    "file": "Shapes/Hexagons/Hex_Petals.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#277ff4",
+      "#00f3e9"
+    ],
+    "description": "Шесть ромбических лепестков раздвигаются по осям соты, сохраняя центральный шестигранник.",
+    "bytes": 5348,
+    "sampled_safe_zone_bounds_in_source_units": [
+      300.78,
+      273.44,
+      699.22,
+      726.56
+    ],
+    "sampled_ink_area_percent": [
+      1.129,
+      1.141,
+      1.147,
+      1.141
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.52,
+      0.517,
+      0.517,
+      0.517
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00212
+  },
+  {
+    "file": "One_Shot/Circles/Orbit_Release.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Дуги сначала раскрывают круг, затем покидают центр по касательным дуговым траекториям.",
+    "bytes": 10087,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.746,
+      1.013,
+      0.246
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.358,
+      0.544,
+      0.142
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Spiral_Unwind.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Три открытые спирали рисуются из центра и раскручиваются наружу.",
+    "bytes": 10799,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.88,
+      3.365,
+      6.194
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.313,
+      1.586,
+      3.85
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Corner_Peel.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Квадрат распадается на четыре угловые скобы, которые разлетаются по диагоналям.",
+    "bytes": 6182,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.482,
+      0.488,
+      0.063
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.245,
+      0.246,
+      0.029
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Panel_Split.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Четыре квадратные панели расходятся горизонтальными парами и сплющиваются в полёте.",
+    "bytes": 6674,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.294,
+      1.352,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.574,
+      0.628,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Chevron_Dash.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три направленных потока парных шевронов уходят от центра; это стрелы, а не кольца.",
+    "bytes": 8375,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.673,
+      0.954,
+      0.102
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.323,
+      0.52,
+      0.063
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Prism_Shards.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Треугольная вспышка разбирается на три длинных вращающихся ребра.",
+    "bytes": 5095,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.507,
+      0.726,
+      0.151
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.26,
+      0.415,
+      0.092
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Hex_Disassembly.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть рёбер отделяются от шестигранника и расходятся, постепенно разворачиваясь в лучи.",
+    "bytes": 8519,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.51,
+      0.5,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.243,
+      0.243,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Hive_Ripple.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 7,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Импульс строит компактную соту из семи ячеек, затем раздвигает её в стороны.",
+    "bytes": 11568,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.006,
+      2.402,
+      3.326
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.337,
+      1.075,
+      1.472
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Axis_Sweeps.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре длинных штриха вытягиваются по главным осям, создавая направленный крестообразный пролёт.",
+    "bytes": 6852,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.894,
+      0.986,
+      0.003
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.396,
+      0.423,
+      0.001
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Curved_Comets.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Пять коротких световых следов разгоняются по изогнутым спиральным траекториям.",
+    "bytes": 14270,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.267,
+      0.45,
+      0.708
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.11,
+      0.224,
+      0.434
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Grid_Break.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 9,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Сначала проявляется сетка из девяти крестов, затем крайние элементы разлетаются с вращением.",
+    "bytes": 15259,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.374,
+      0.572,
+      0.079
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.22,
+      0.341,
+      0.058
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Corkscrew.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Четыре вращающихся креста разгоняются по винтовому разлёту вместо прямого радиального движения.",
+    "bytes": 11434,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.299,
+      0.391,
+      0.606
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.163,
+      0.25,
+      0.429
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "BG/Circles/Orbital_Lanes.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Небольшие дуговые фрагменты непрерывно расходятся по кривым в глубину; статичных больших орбит больше нет.",
+    "bytes": 282452,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.337,
+      0.285,
+      0.404,
+      0.415
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.133,
+      0.108,
+      0.171,
+      0.165
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.11958
+  },
+  {
+    "file": "BG/Circles/Drifting_Rings.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Редкие малые кольца идут от внутренней области к краям с разным возрастом, без возвратного дрейфа.",
+    "bytes": 275468,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.732,
+      0.583,
+      0.464,
+      0.478
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.346,
+      0.256,
+      0.205,
+      0.195
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.23636
+  },
+  {
+    "file": "BG/Geometry/Parallax_Gates.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Незамкнутые рамки приближаются и покидают кадр; вместо качания ширины — только равномерный масштаб и движение в глубину.",
+    "bytes": 232796,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.804,
+      0.871,
+      0.63,
+      0.711
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.399,
+      0.425,
+      0.281,
+      0.332
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.26775
+  },
+  {
+    "file": "BG/Geometry/Counterflow_Field.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 12,
+    "colors": [
+      "#277ff4",
+      "#ffffff"
+    ],
+    "description": "Два боковых встречных потока небольших знаков. На переносе за краем — короткий fade 0–100%.",
+    "bytes": 162280,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.687,
+      0.664,
+      0.67,
+      0.658
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.253,
+      0.253,
+      0.252,
+      0.252
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.30511
+  },
+  {
+    "file": "BG/Lines/Horizon_Rails.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Короткие разорванные пары рельсов приближаются и расходятся по разным направлениям, без статичной веерной схемы.",
+    "bytes": 284886,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.299,
+      0.224,
+      0.273,
+      0.246
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.135,
+      0.091,
+      0.119,
+      0.103
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.02472
+  },
+  {
+    "file": "BG/Lines/Wave_Filaments.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Пять коротких волнистых нитей пролетают по отдельным траекториям; горизонтальных полос на весь экран нет.",
+    "bytes": 231230,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.189,
+      0.15,
+      0.157,
+      0.194
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.078,
+      0.051,
+      0.054,
+      0.069
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.05069
+  },
+  {
+    "file": "Shapes/Circles/Split_Orbit.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Две большие полуокружности расходятся в стороны и встречаются вновь.",
+    "bytes": 3272,
+    "sampled_safe_zone_bounds_in_source_units": [
+      253.91,
+      253.91,
+      746.09,
+      746.09
+    ],
+    "sampled_ink_area_percent": [
+      0.861,
+      0.88,
+      0.862,
+      0.88
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.439,
+      0.441,
+      0.434,
+      0.441
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00356
+  },
+  {
+    "file": "Shapes/Circles/Concentric_Lock.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Три кольца разного радиуса раскрывают разрывы с независимой фазой.",
+    "bytes": 2473,
+    "sampled_safe_zone_bounds_in_source_units": [
+      277.34,
+      277.34,
+      722.66,
+      722.66
+    ],
+    "sampled_ink_area_percent": [
+      0.986,
+      1.193,
+      1.395,
+      1.193
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.435,
+      0.527,
+      0.619,
+      0.527
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.04258
+  },
+  {
+    "file": "Shapes/Circles/Radar_Petals.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Короткие радарные дуги проходят по нескольким радиусам с разной скоростью.",
+    "bytes": 5268,
+    "sampled_safe_zone_bounds_in_source_units": [
+      281.25,
+      281.25,
+      718.75,
+      718.75
+    ],
+    "sampled_ink_area_percent": [
+      0.734,
+      0.693,
+      0.737,
+      0.694
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.337,
+      0.327,
+      0.337,
+      0.327
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.05754
+  },
+  {
+    "file": "Shapes/Circles/Breathing_Lens.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Круговые дуги переплетаются и встречным вращением меняют просветы; все окружности сохраняют форму.",
+    "bytes": 7616,
+    "sampled_safe_zone_bounds_in_source_units": [
+      304.69,
+      328.12,
+      695.31,
+      671.88
+    ],
+    "sampled_ink_area_percent": [
+      0.96,
+      0.946,
+      0.96,
+      0.946
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.446,
+      0.443,
+      0.446,
+      0.443
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.18596
+  },
+  {
+    "file": "Shapes/Circles/Dot_Corona.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 13,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Двенадцать малых контурных точек бегут по пульсирующей короне.",
+    "bytes": 39828,
+    "sampled_safe_zone_bounds_in_source_units": [
+      292.97,
+      332.03,
+      707.03,
+      738.28
+    ],
+    "sampled_ink_area_percent": [
+      0.78,
+      0.78,
+      0.78,
+      0.78
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.318,
+      0.318,
+      0.318,
+      0.318
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.48366
+  },
+  {
+    "file": "Shapes/Circles/Pendulum_Rings.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Три подвешенных кольца качаются на разной высоте.",
+    "bytes": 10225,
+    "sampled_safe_zone_bounds_in_source_units": [
+      300.78,
+      312.5,
+      699.22,
+      699.22
+    ],
+    "sampled_ink_area_percent": [
+      0.746,
+      0.758,
+      0.737,
+      0.76
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.342,
+      0.342,
+      0.337,
+      0.344
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.37283
+  },
+  {
+    "file": "Shapes/Circles/Circle_Weave.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#00f3e9",
+      "#ffffff"
+    ],
+    "description": "Четыре кольца переплетаются по плавным лиссажу-подобным траекториям.",
+    "bytes": 13012,
+    "sampled_safe_zone_bounds_in_source_units": [
+      292.97,
+      296.88,
+      707.03,
+      703.12
+    ],
+    "sampled_ink_area_percent": [
+      1.132,
+      1.457,
+      1.134,
+      1.457
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.537,
+      0.619,
+      0.537,
+      0.619
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 1.0235
+  },
+  {
+    "file": "Shapes/Squares/Folding_Box.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Четыре стороны складываются к центру, меняя длину по одной оси.",
+    "bytes": 14160,
+    "sampled_safe_zone_bounds_in_source_units": [
+      304.69,
+      304.69,
+      695.31,
+      695.31
+    ],
+    "sampled_ink_area_percent": [
+      0.671,
+      0.688,
+      0.842,
+      0.688
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.223,
+      0.3,
+      0.391,
+      0.3
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.03676
+  },
+  {
+    "file": "Shapes/Squares/Offset_Nest.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Три вложенные рамки сдвигаются по разным осям, сохраняя прямые углы.",
+    "bytes": 9946,
+    "sampled_safe_zone_bounds_in_source_units": [
+      296.88,
+      296.88,
+      703.12,
+      703.12
+    ],
+    "sampled_ink_area_percent": [
+      1.999,
+      1.999,
+      2.0,
+      2.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.859,
+      0.859,
+      0.859,
+      0.859
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.45672
+  },
+  {
+    "file": "Shapes/Squares/Frame_Assembly.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 8,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Восемь коротких сегментов поочерёдно собирают контур квадратной рамки.",
+    "bytes": 25773,
+    "sampled_safe_zone_bounds_in_source_units": [
+      300.78,
+      300.78,
+      699.22,
+      699.22
+    ],
+    "sampled_ink_area_percent": [
+      0.685,
+      0.684,
+      0.72,
+      0.729
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.333,
+      0.335,
+      0.333,
+      0.335
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.15945
+  },
+  {
+    "file": "Shapes/Squares/Diamond_Shutter.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 5,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Четыре ромбические створки открывают и закрывают центральный просвет.",
+    "bytes": 13269,
+    "sampled_safe_zone_bounds_in_source_units": [
+      269.53,
+      269.53,
+      730.47,
+      730.47
+    ],
+    "sampled_ink_area_percent": [
+      1.337,
+      1.376,
+      1.117,
+      1.376
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.556,
+      0.561,
+      0.563,
+      0.561
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.01873
+  },
+  {
+    "file": "Shapes/Squares/Ladder_Block.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 9,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Вместо перекладин — механическая сборка из четырёх углов и встречного центрального квадрата, с непрерывным четвертьоборотом.",
+    "bytes": 27993,
+    "sampled_safe_zone_bounds_in_source_units": [
+      261.72,
+      261.72,
+      738.28,
+      738.28
+    ],
+    "sampled_ink_area_percent": [
+      0.641,
+      0.552,
+      0.667,
+      0.566
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.294,
+      0.295,
+      0.295,
+      0.293
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.14175
+  },
+  {
+    "file": "Shapes/Squares/Corner_Chase.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Четыре скобы непрерывно обходят квадрат по его сторонам.",
+    "bytes": 3477,
+    "sampled_safe_zone_bounds_in_source_units": [
+      296.88,
+      296.88,
+      703.12,
+      703.12
+    ],
+    "sampled_ink_area_percent": [
+      0.172,
+      0.172,
+      0.172,
+      0.171
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.084,
+      0.084,
+      0.084,
+      0.084
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.13577
+  },
+  {
+    "file": "Shapes/Squares/Rect_Wave.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#9c32fe",
+      "#ffffff"
+    ],
+    "description": "Сетку заменяют три встречновращающиеся квадратные рамки и четыре внешних маркера. Равномерные размеры, без деформации осей.",
+    "bytes": 15476,
+    "sampled_safe_zone_bounds_in_source_units": [
+      250.0,
+      250.0,
+      750.0,
+      750.0
+    ],
+    "sampled_ink_area_percent": [
+      1.45,
+      1.814,
+      1.872,
+      1.801
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.819,
+      0.818,
+      0.819,
+      0.816
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.23876
+  },
+  {
+    "file": "Shapes/Triangles/Delta_Stack.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три треугольника ходят по вертикали в противофазе, образуя расслоенный знак.",
+    "bytes": 9644,
+    "sampled_safe_zone_bounds_in_source_units": [
+      371.09,
+      277.34,
+      628.91,
+      652.34
+    ],
+    "sampled_ink_area_percent": [
+      1.593,
+      1.489,
+      1.265,
+      1.421
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.674,
+      0.666,
+      0.661,
+      0.673
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.25024
+  },
+  {
+    "file": "Shapes/Triangles/Triad_Orbit.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#f318e8",
+      "#ffffff"
+    ],
+    "description": "Три небольших треугольника обмениваются местами вокруг центральной оси.",
+    "bytes": 10909,
+    "sampled_safe_zone_bounds_in_source_units": [
+      296.88,
+      292.97,
+      703.12,
+      703.12
+    ],
+    "sampled_ink_area_percent": [
+      0.711,
+      0.711,
+      0.711,
+      0.71
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.314,
+      0.314,
+      0.314,
+      0.314
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.4678
+  },
+  {
+    "file": "Shapes/Triangles/Arrow_Gate.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 2,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Два шеврона сходятся и расходятся, открывая направленный проход.",
+    "bytes": 6404,
+    "sampled_safe_zone_bounds_in_source_units": [
+      406.25,
+      304.69,
+      593.75,
+      695.31
+    ],
+    "sampled_ink_area_percent": [
+      0.543,
+      0.555,
+      0.546,
+      0.555
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.272,
+      0.275,
+      0.275,
+      0.275
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00953
+  },
+  {
+    "file": "Shapes/Triangles/Triangle_Weave.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три контура растягиваются поперёк своих осей и переплетаются.",
+    "bytes": 9623,
+    "sampled_safe_zone_bounds_in_source_units": [
+      343.75,
+      328.12,
+      656.25,
+      593.75
+    ],
+    "sampled_ink_area_percent": [
+      1.19,
+      1.266,
+      1.19,
+      0.998
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.414,
+      0.424,
+      0.414,
+      0.392
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.09266
+  },
+  {
+    "file": "Shapes/Triangles/Delta_Draw.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 2,
+    "colors": [
+      "#f318e8",
+      "#ffffff"
+    ],
+    "description": "Контур большого треугольника рисуется навстречу внутреннему контуру.",
+    "bytes": 1676,
+    "sampled_safe_zone_bounds_in_source_units": [
+      300.78,
+      273.44,
+      699.22,
+      640.62
+    ],
+    "sampled_ink_area_percent": [
+      0.615,
+      0.743,
+      0.859,
+      0.743
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.293,
+      0.35,
+      0.406,
+      0.35
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00045
+  },
+  {
+    "file": "Shapes/Triangles/Prism_Scissor.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три пары рёбер раскрываются как ножницы вокруг вершин.",
+    "bytes": 4183,
+    "sampled_safe_zone_bounds_in_source_units": [
+      371.09,
+      363.28,
+      628.91,
+      625.0
+    ],
+    "sampled_ink_area_percent": [
+      0.426,
+      0.426,
+      0.435,
+      0.426
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.201,
+      0.202,
+      0.203,
+      0.202
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00258
+  },
+  {
+    "file": "Shapes/Triangles/Three_Petals.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три треугольных лепестка сходятся в центральный знак и раскрываются по радиусам.",
+    "bytes": 10068,
+    "sampled_safe_zone_bounds_in_source_units": [
+      304.69,
+      277.34,
+      695.31,
+      613.28
+    ],
+    "sampled_ink_area_percent": [
+      0.79,
+      0.801,
+      0.8,
+      0.801
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.371,
+      0.373,
+      0.375,
+      0.373
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.01698
+  },
+  {
+    "file": "Shapes/Hexagons/Hex_Iris.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть угловых створок сходятся к центру и раскрываются, как шестигранная диафрагма.",
+    "bytes": 19897,
+    "sampled_safe_zone_bounds_in_source_units": [
+      335.94,
+      312.5,
+      664.06,
+      687.5
+    ],
+    "sampled_ink_area_percent": [
+      0.415,
+      0.412,
+      0.421,
+      0.412
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.192,
+      0.191,
+      0.191,
+      0.191
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00893
+  },
+  {
+    "file": "Shapes/Hexagons/Cell_Orbit.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 4,
+    "colors": [
+      "#277ff4",
+      "#00f3e9"
+    ],
+    "description": "Три малые ячейки проходят по общей орбите вокруг крупной центральной соты.",
+    "bytes": 11212,
+    "sampled_safe_zone_bounds_in_source_units": [
+      265.62,
+      265.62,
+      734.38,
+      734.38
+    ],
+    "sampled_ink_area_percent": [
+      0.775,
+      0.775,
+      0.774,
+      0.774
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.36,
+      0.36,
+      0.36,
+      0.36
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.30088
+  },
+  {
+    "file": "Shapes/Hexagons/Facet_Pulse.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Короткие рёбра передают масштабный импульс по очереди вокруг оболочки.",
+    "bytes": 19131,
+    "sampled_safe_zone_bounds_in_source_units": [
+      316.41,
+      324.22,
+      683.59,
+      675.78
+    ],
+    "sampled_ink_area_percent": [
+      0.406,
+      0.421,
+      0.406,
+      0.389
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.22,
+      0.219,
+      0.22,
+      0.219
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00281
+  },
+  {
+    "file": "Shapes/Hexagons/Hex_Lattice.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Семь ячеек медленно раздвигаются и снова сцепляются в компактную соту.",
+    "bytes": 21139,
+    "sampled_safe_zone_bounds_in_source_units": [
+      347.66,
+      328.12,
+      652.34,
+      671.88
+    ],
+    "sampled_ink_area_percent": [
+      1.184,
+      1.286,
+      1.283,
+      1.286
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.52,
+      0.534,
+      0.536,
+      0.534
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00932
+  },
+  {
+    "file": "Shapes/Hexagons/Segmented_Crown.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть двойных граней поворачиваются в разные стороны вокруг центрального просвета.",
+    "bytes": 4275,
+    "sampled_safe_zone_bounds_in_source_units": [
+      316.41,
+      316.41,
+      683.59,
+      683.59
+    ],
+    "sampled_ink_area_percent": [
+      0.522,
+      0.534,
+      0.52,
+      0.534
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.219,
+      0.218,
+      0.219,
+      0.218
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.0005
+  },
+  {
+    "file": "Shapes/Hexagons/Hex_Braid.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 8,
+    "colors": [
+      "#277ff4",
+      "#00f3e9"
+    ],
+    "description": "Два шестигранника сцепляются встречным вращением и малым круговым смещением; шесть зубцов ведут внешний ритм. Растяжения по осям нет.",
+    "bytes": 27555,
+    "sampled_safe_zone_bounds_in_source_units": [
+      277.34,
+      277.34,
+      722.66,
+      722.66
+    ],
+    "sampled_ink_area_percent": [
+      1.276,
+      1.312,
+      1.393,
+      1.314
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.634,
+      0.635,
+      0.635,
+      0.635
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.13048
+  },
+  {
+    "file": "Shapes/Hexagons/Honeycomb_Draw.json",
+    "role": "Shapes",
+    "duration": 4,
+    "layers": 7,
+    "colors": [
+      "#277ff4",
+      "#00f3e9"
+    ],
+    "description": "Центральная ячейка и шесть внешних углов рисуются с волной задержки.",
+    "bytes": 19150,
+    "sampled_safe_zone_bounds_in_source_units": [
+      328.12,
+      300.78,
+      671.88,
+      699.22
+    ],
+    "sampled_ink_area_percent": [
+      0.34,
+      0.481,
+      0.624,
+      0.481
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.136,
+      0.196,
+      0.256,
+      0.196
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00228
+  },
+  {
+    "file": "One_Shot/Circles/Double_Shock.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 2,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Два встречных кольцевых удара: короткое сжатие и быстрое расширение.",
+    "bytes": 2423,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.772,
+      3.79,
+      0.018
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.294,
+      2.248,
+      0.009
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Arc_Spray.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Восемь коротких дуг выстреливают веером с вращением.",
+    "bytes": 12219,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.278,
+      0.429,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.112,
+      0.205,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Ring_Drop.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре кольца падают вниз из центра по расходящимся траекториям.",
+    "bytes": 5036,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.735,
+      1.23,
+      1.756
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.344,
+      0.653,
+      1.109
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Halo_Fracture.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Кольцо разламывается на четыре больших четверти, которые покидают центр.",
+    "bytes": 5364,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.677,
+      0.636,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.295,
+      0.295,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Bubble_Thread.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Шесть малых колец вытягиваются в две последовательные изогнутые нити.",
+    "bytes": 7749,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.482,
+      0.801,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.223,
+      0.411,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Circle_Pair_Burst.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Три пары колец сначала расходятся поперёк, затем ускоряются к краям.",
+    "bytes": 7958,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.204,
+      1.772,
+      0.392
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.538,
+      0.928,
+      0.232
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Circles/Expanding_Crescents.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Три растущих серпа последовательно разворачиваются и уходят из кадра.",
+    "bytes": 3958,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.592,
+      2.234,
+      0.005
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.244,
+      1.347,
+      0.002
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Box_Flip.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 2,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Две квадратные оболочки раскрываются через сплющивание по горизонтали и уходят в края.",
+    "bytes": 2581,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.76,
+      4.646,
+      2.516
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.304,
+      2.897,
+      1.854
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Bracket_Stream.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Три пары скоб протягивают последовательный боковой проход.",
+    "bytes": 7822,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.681,
+      1.215,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.339,
+      0.638,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Frame_Rupture.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Восемь отдельных рёбер рамки срываются по нормалям, сохраняя квадратный рисунок старта.",
+    "bytes": 10677,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.391,
+      0.583,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.209,
+      0.249,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Tile_Rain.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Шесть малых плиток взлетают и падают веером.",
+    "bytes": 8207,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.693,
+      1.059,
+      1.704
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.319,
+      0.52,
+      0.977
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Square_Zipper.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Две зубчатые цепочки рамок расходятся как раскрывающаяся застёжка.",
+    "bytes": 9315,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.891,
+      0.99,
+      0.142
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.431,
+      0.445,
+      0.064
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Diamond_Spray.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Четыре ромба вылетают по диагоналям с поперечным покачиванием.",
+    "bytes": 6189,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.726,
+      1.103,
+      1.32
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.327,
+      0.543,
+      0.765
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Squares/Gate_Launch.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#9c32fe"
+    ],
+    "description": "Три прямоугольных портала раскрываются в широкий проезд и ускоряются к зрителю.",
+    "bytes": 3514,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.877,
+      4.382,
+      5.469
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.289,
+      2.096,
+      4.292
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Delta_Fanout.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Пять длинных треугольных контуров раскрываются верхним веером и разгоняются.",
+    "bytes": 6983,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.9,
+      1.443,
+      0.317
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.4,
+      0.703,
+      0.198
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Arrow_Chain.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три последовательных стрелы проходят через центр по восходящей диагонали.",
+    "bytes": 3908,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.252,
+      0.444,
+      0.32
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.097,
+      0.224,
+      0.206
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Needle_Burst.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три острых иглы растягиваются по направлению движения от центра.",
+    "bytes": 3777,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.537,
+      0.702,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.243,
+      0.325,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Prism_Spinout.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три треугольника сначала закручиваются рядом с центром, затем вылетают по касательной.",
+    "bytes": 8582,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.471,
+      0.642,
+      0.519
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.197,
+      0.325,
+      0.319
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Wing_Split.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Парные стороны треугольника раскрываются крыльями и разлетаются влево и вправо.",
+    "bytes": 4750,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.371,
+      0.378,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.168,
+      0.169,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Triad_Wave.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Три дуги из открытых треугольных шевронов расходятся волной по радиусам.",
+    "bytes": 7737,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.72,
+      1.152,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.324,
+      0.606,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Triangles/Shard_Cascade.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#f318e8"
+    ],
+    "description": "Шесть коротких треугольных осколков с задержкой вылетают вниз по ступенчатой дуге.",
+    "bytes": 9041,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.433,
+      0.67,
+      0.09
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.182,
+      0.339,
+      0.05
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Cell_Burst.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть сот с коротким сжатием разлетаются по прямым радиусам.",
+    "bytes": 8477,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.057,
+      1.561,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.46,
+      0.827,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Facet_Streaks.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 12,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Двенадцать коротких граней расходятся парами вдоль шести осей.",
+    "bytes": 15268,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.554,
+      0.714,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.231,
+      0.305,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Hex_Pulse_Chain.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Три шестигранных импульса проходят по диагональной цепочке, не образуя тоннель.",
+    "bytes": 4345,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.551,
+      1.57,
+      2.016
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.227,
+      0.823,
+      1.227
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Honeycomb_Spread.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Два ряда ячеек разворачивают соты в горизонтальную полосу и расходятся.",
+    "bytes": 8911,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      1.169,
+      1.562,
+      0.97
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.499,
+      0.772,
+      0.545
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Hex_Spiral.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Четыре шестигранника идут по широкому спиральному разлёту с контрвращением.",
+    "bytes": 11564,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.562,
+      0.926,
+      0.673
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.261,
+      0.505,
+      0.427
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Radial_Cells.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Шесть узких открытых граней вытягиваются в ячейки по мере удаления от центра.",
+    "bytes": 9932,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.693,
+      2.045,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.187,
+      0.986,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Hexagons/Facet_Peel.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Три пары соседних рёбер отделяются от оболочки и разворачиваются как скобы.",
+    "bytes": 4161,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.327,
+      0.473,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.151,
+      0.246,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Pinwheel_Stroke.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Шесть штрихов закручивают короткую вертушку и улетают по касательным.",
+    "bytes": 8397,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.397,
+      0.601,
+      0.166
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.168,
+      0.292,
+      0.092
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/V_Rockets.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре открытых V-образных следа ускоряются вдоль диагоналей.",
+    "bytes": 5154,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.473,
+      0.711,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.22,
+      0.338,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Staggered_Rays.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 12,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Двенадцать лучей вылетают волной задержки по окружности.",
+    "bytes": 15746,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.51,
+      0.83,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.182,
+      0.395,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Line_Zipper.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Восемь поперечных штрихов расходятся от центральной вертикали двумя рядами.",
+    "bytes": 8645,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.424,
+      0.513,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.231,
+      0.237,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Bent_Burst.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре ломаных следа разгибаются и вытягиваются к краям.",
+    "bytes": 5421,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.36,
+      0.452,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.16,
+      0.184,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Parallel_Flash.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 3,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Три длинных параллельных штриха проходят через центр в разные стороны.",
+    "bytes": 3627,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.806,
+      0.568,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.308,
+      0.217,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Lines/Comet_Fan.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 7,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Семь коротких следов образуют направленный изогнутый веер.",
+    "bytes": 10146,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.296,
+      0.453,
+      0.105
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.12,
+      0.221,
+      0.062
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Twist.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 1,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Один крупный крест закручивается, сплющивается и расширяется за края.",
+    "bytes": 1314,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.349,
+      0.476,
+      3.291
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.182,
+      0.256,
+      2.752
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Plus_Arms.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Четыре плеча плюса отделяются от центра и уходят по осям.",
+    "bytes": 4755,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.293,
+      0.22,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.119,
+      0.089,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Checker_Release.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Пять крестов строят шахматную диагональ и разъезжаются по разным траекториям.",
+    "bytes": 7204,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.348,
+      0.459,
+      0.528
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.19,
+      0.276,
+      0.347
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Waves.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Две группы по четыре креста расходятся с чередованием радиуса и угла.",
+    "bytes": 11295,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.565,
+      0.806,
+      0.188
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.317,
+      0.469,
+      0.128
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Compass.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 8,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Восемь малых крестов расходятся по направлениям компаса, сохраняя ориентацию.",
+    "bytes": 10319,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.378,
+      0.549,
+      0.0
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.207,
+      0.408,
+      0.0
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Split_Plus.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 2,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Два длинных штриха сначала образуют плюс, затем разворачиваются и разлетаются.",
+    "bytes": 2863,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.392,
+      0.621,
+      0.124
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.184,
+      0.313,
+      0.071
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "One_Shot/Crosses/Cross_Chain.json",
+    "role": "One_Shot",
+    "duration": 2,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Пять крестов последовательно проходят по S-образному маршруту из центра.",
+    "bytes": 7504,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.0,
+      0.227,
+      0.371,
+      0.279
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.0,
+      0.098,
+      0.227,
+      0.192
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0
+  },
+  {
+    "file": "BG/Circles/Slow_Precession.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Четыре разорванные дуги растут из глубины и проворачиваются с независимой фазой; постоянного крупного знака нет.",
+    "bytes": 164874,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      1.079,
+      1.279,
+      1.205,
+      1.202
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.589,
+      0.721,
+      0.676,
+      0.673
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.46473
+  },
+  {
+    "file": "BG/Circles/Ring_Archipelago.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Небольшие связки из трёх колец выходят из глубины и разлетаются, без статичной круговой расстановки.",
+    "bytes": 187066,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.569,
+      0.641,
+      0.609,
+      0.423
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.234,
+      0.261,
+      0.254,
+      0.16
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.16034
+  },
+  {
+    "file": "BG/Circles/Vertical_Orbits.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Пять разорванных круговых следов проходят сверху вниз внутри центральных дорожек, видимых в вертикальном Fill.",
+    "bytes": 226443,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.301,
+      0.273,
+      0.201,
+      0.249
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.107,
+      0.099,
+      0.079,
+      0.093
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.11783
+  },
+  {
+    "file": "BG/Circles/Twin_Lenses.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 4,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Две пары круговых фрагментов расходятся по независимым кривым; неподвижных линз и растяжения по осям нет.",
+    "bytes": 176005,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.232,
+      0.218,
+      0.249,
+      0.238
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.09,
+      0.084,
+      0.098,
+      0.092
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.06674
+  },
+  {
+    "file": "BG/Circles/Arc_Constellation.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 7,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Разреженная дуговая пыль расходится без закреплённых мест и общего обратного движения.",
+    "bytes": 327640,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.217,
+      0.241,
+      0.259,
+      0.226
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.099,
+      0.102,
+      0.114,
+      0.093
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.08233
+  },
+  {
+    "file": "BG/Circles/Ring_Current.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Боковой поток незамкнутых колец проходит сверху вниз с плавным переносом. Пиковая прозрачность 100%.",
+    "bytes": 113694,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.963,
+      0.981,
+      0.963,
+      0.937
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.375,
+      0.374,
+      0.365,
+      0.356
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.36168
+  },
+  {
+    "file": "BG/Circles/Lunar_Lanes.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Короткие лунные серпы пролетают к краям с разной фазой, не образуя постоянных дорожек.",
+    "bytes": 235680,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.201,
+      0.163,
+      0.151,
+      0.27
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.073,
+      0.052,
+      0.05,
+      0.07
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.05267
+  },
+  {
+    "file": "BG/Geometry/Falling_Diamonds.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 10,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Редкие ромбы плавно падают двумя боковыми потоками. Пиковая прозрачность 100%.",
+    "bytes": 142310,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.797,
+      0.673,
+      0.768,
+      0.726
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.302,
+      0.266,
+      0.286,
+      0.271
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.31747
+  },
+  {
+    "file": "BG/Geometry/Zigzag_Drifters.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 7,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Угловые знаки с разных глубин движутся наружу по плавным кривым, без движения по ломаной туда-обратно.",
+    "bytes": 324692,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.241,
+      0.226,
+      0.2,
+      0.179
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.111,
+      0.103,
+      0.094,
+      0.082
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.066
+  },
+  {
+    "file": "BG/Geometry/Breathing_Cells.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Малые соты появляются во внутренней области и расходятся наружу: центральные фазы видны и при вертикальном кропе.",
+    "bytes": 282283,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.508,
+      0.298,
+      0.516,
+      0.369
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.222,
+      0.111,
+      0.223,
+      0.144
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.16779
+  },
+  {
+    "file": "BG/Geometry/Passing_Windows.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Узкие прямоугольные окна проходят по горизонтали в противоположных направлениях. Пиковая прозрачность 100%.",
+    "bytes": 103878,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.716,
+      0.723,
+      0.716,
+      0.717
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.251,
+      0.251,
+      0.251,
+      0.251
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.22259
+  },
+  {
+    "file": "BG/Geometry/Tilted_Grid.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 7,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Разреженные плитки расходятся с плавным вращением. Закреплённая почти неподвижная сетка удалена.",
+    "bytes": 321993,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.473,
+      0.421,
+      0.439,
+      0.436
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.194,
+      0.176,
+      0.188,
+      0.174
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.12647
+  },
+  {
+    "file": "BG/Geometry/Loose_Fragments.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 10,
+    "colors": [
+      "#277ff4",
+      "#ffffff"
+    ],
+    "description": "Короткие фрагменты многоугольников медленно вращаются в отдельных областях. Пиковая прозрачность 100%.",
+    "bytes": 6384,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.334,
+      0.356,
+      0.346,
+      0.339
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.131,
+      0.13,
+      0.131,
+      0.131
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.01154
+  },
+  {
+    "file": "BG/Geometry/Polygon_Orbits.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#277ff4"
+    ],
+    "description": "Малые квадраты и треугольники проходят по широким эллиптическим орбитам. Пиковая прозрачность 100%.",
+    "bytes": 27470,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.482,
+      0.452,
+      0.479,
+      0.45
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.182,
+      0.181,
+      0.182,
+      0.181
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.23502
+  },
+  {
+    "file": "BG/Lines/Parallel_Current.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Шесть коротких параллельных следов проходят по краям в двух направлениях. Пиковая прозрачность 100%.",
+    "bytes": 78875,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.446,
+      0.398,
+      0.443,
+      0.356
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.14,
+      0.133,
+      0.14,
+      0.126
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00964
+  },
+  {
+    "file": "BG/Lines/Sine_Horizon.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 5,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Независимые короткие дугообразные следы заменяют три явно читаемые синусоидальные полосы.",
+    "bytes": 231136,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.177,
+      0.133,
+      0.143,
+      0.111
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.071,
+      0.047,
+      0.055,
+      0.039
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.06294
+  },
+  {
+    "file": "BG/Lines/Diagonal_Shuttles.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Восемь диагональных штрихов скользят между боковыми областями. Пиковая прозрачность 100%.",
+    "bytes": 26737,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.285,
+      0.281,
+      0.317,
+      0.301
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.119,
+      0.119,
+      0.119,
+      0.119
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.05593
+  },
+  {
+    "file": "BG/Lines/Peripheral_Rays.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 7,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Вместо качающихся лучей по окружности — нерегулярные короткие штрихи с непрерывным разлётом.",
+    "bytes": 328463,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.18,
+      0.179,
+      0.157,
+      0.146
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.083,
+      0.077,
+      0.07,
+      0.062
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.08821
+  },
+  {
+    "file": "BG/Lines/Ribbon_Lanes.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре небольших парных следа расходятся из глубины; сплошные длинные ленты убраны.",
+    "bytes": 350614,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.172,
+      0.172,
+      0.168,
+      0.174
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.055,
+      0.055,
+      0.056,
+      0.056
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.02481
+  },
+  {
+    "file": "BG/Lines/Corner_Streams.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 8,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Четыре потока коротких линий уходят из углов к периферийным границам. Пиковая прозрачность 100%.",
+    "bytes": 118661,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.171,
+      0.342,
+      0.171,
+      0.342
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.054,
+      0.109,
+      0.054,
+      0.109
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.00379
+  },
+  {
+    "file": "BG/Lines/Tension_Lines.json",
+    "role": "BG",
+    "duration": 8,
+    "layers": 6,
+    "colors": [
+      "#00f3e9"
+    ],
+    "description": "Вместо шести натянутых полос — редкие короткие ломаные следы, непрерывно уходящие из глубины.",
+    "bytes": 273157,
+    "sampled_safe_zone_bounds_in_source_units": null,
+    "sampled_ink_area_percent": [
+      0.124,
+      0.171,
+      0.136,
+      0.122
+    ],
+    "sampled_equivalent_alpha_percent": [
+      0.049,
+      0.063,
+      0.049,
+      0.039
+    ],
+    "loop_adjacent_frame_mean_channel_difference": 0.01912
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "Lottie for Resolume",
+  "version": "1.0.0-beta.1",
+  "base_version": "1.0.0",
+  "ffgl_major": 1,
+  "ffgl_minor": 0,
+  "author": "vnkbln",
+  "repository": "https://github.com/vnkbln/lottielume",
+  "pack": "Centerline",
+  "pack_version": "0.4",
+  "software_license": "MIT",
+  "artwork_license": "CC-BY-4.0",
+  "platform": "windows-x64",
+  "prerelease": true
+}

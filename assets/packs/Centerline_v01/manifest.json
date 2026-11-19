@@ -1,0 +1,1339 @@
+{
+  "name": "Centerline",
+  "version": "0.4",
+  "canvas": [
+    1000,
+    1000
+  ],
+  "fps": 60,
+  "files": [
+    {
+      "file": "Shapes/Circles/Halo.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "A circle, opposing arcs and four orbital strokes for gentle scratching."
+    },
+    {
+      "file": "Shapes/Squares/Floating_Frame.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Two slightly separated square outlines with four small satellites."
+    },
+    {
+      "file": "Shapes/Triangles/Prism_Signal.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#f318e8",
+        "#ffffff"
+      ],
+      "description": "A triangular frame with independently rotating segments and no translucent fills."
+    },
+    {
+      "file": "Shapes/Hexagons/Hex_Relay.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 8,
+      "colors": [
+        "#277ff4",
+        "#00f3e9"
+      ],
+      "description": "A hexagonal outline, six moving segments and a small central accent."
+    },
+    {
+      "file": "One_Shot/Circles/Ring_Wake.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Five rings of different phases accelerate outward and disappear at the edges."
+    },
+    {
+      "file": "One_Shot/Squares/Square_Tunnel.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four square frame echoes create a flight through a transparent tunnel."
+    },
+    {
+      "file": "One_Shot/Hexagons/Hex_Echo.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "A short sequence of hexagonal echoes with a small rotation."
+    },
+    {
+      "file": "One_Shot/Triangles/Prism_Flight.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three cascades of thin triangles accelerate from the center toward the corners."
+    },
+    {
+      "file": "One_Shot/Lines/Radial_Streaks.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Twelve short radial rays; useful for frequent triggers because they clear quickly."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Flight.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six outlined crosses accelerate away from the center."
+    },
+    {
+      "file": "BG/Circles/Quiet_Depth.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six widely spaced rings at different depths, leaving the center open."
+    },
+    {
+      "file": "BG/Geometry/Orbital_Dust.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 9,
+      "colors": [
+        "#277ff4",
+        "#ffffff"
+      ],
+      "description": "Sparse geometric fragments flow continuously along diagonal paths without collective reversal."
+    },
+    {
+      "file": "BG/Lines/Quiet_Meridians.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 7,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Several open arcs and a few slow straight strokes leave most of the output transparent."
+    },
+    {
+      "file": "Shapes/Circles/Orbit_Planes.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "Three flattened orbital planes tilt around a fixed center."
+    },
+    {
+      "file": "Shapes/Circles/Iris_Bloom.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "Six arc petals open like an iris while preserving a circular boundary."
+    },
+    {
+      "file": "Shapes/Squares/Corner_Hinges.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 5,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Four separate frame corners hinge toward and away from the center."
+    },
+    {
+      "file": "Shapes/Squares/Sliding_Tiles.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 9,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Square corner pieces on two levels slide past one another."
+    },
+    {
+      "file": "Shapes/Triangles/Tripod_Fold.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#f318e8",
+        "#ffffff"
+      ],
+      "description": "A triangle separates into three rotating sections around its vertices."
+    },
+    {
+      "file": "Shapes/Triangles/Prism_Fan.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#f318e8",
+        "#ffffff"
+      ],
+      "description": "Five triangular outlines shift angle and phase to form a fan."
+    },
+    {
+      "file": "Shapes/Hexagons/Edge_Runners.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#277ff4",
+        "#ffffff"
+      ],
+      "description": "Six short segments carry a moving highlight around a hexagonal boundary."
+    },
+    {
+      "file": "Shapes/Hexagons/Hex_Petals.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#277ff4",
+        "#00f3e9"
+      ],
+      "description": "Six hexagonal petals rotate around their own axes while retaining a central opening."
+    },
+    {
+      "file": "One_Shot/Circles/Orbit_Release.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "A small circular impulse releases short arcs along orbital tangents."
+    },
+    {
+      "file": "One_Shot/Circles/Spiral_Unwind.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Three arc fragments accelerate from the center along unwinding spirals."
+    },
+    {
+      "file": "One_Shot/Squares/Corner_Peel.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "A square splits into four corners that accelerate diagonally outward."
+    },
+    {
+      "file": "One_Shot/Squares/Panel_Split.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four rectangular panels open horizontally before accelerating toward the edges."
+    },
+    {
+      "file": "One_Shot/Triangles/Chevron_Dash.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three sequential chevrons move away from the center, emphasizing direction rather than a tunnel."
+    },
+    {
+      "file": "One_Shot/Triangles/Prism_Shards.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "A triangular shell breaks into three large, independently flying fragments."
+    },
+    {
+      "file": "One_Shot/Hexagons/Hex_Disassembly.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six edges separate from a hexagon and spread outward while rotating."
+    },
+    {
+      "file": "One_Shot/Hexagons/Hive_Ripple.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 7,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "A small honeycomb burst expands into six cells that continue toward the corners."
+    },
+    {
+      "file": "One_Shot/Lines/Axis_Sweeps.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four pairs of strokes sweep along the main axes to suggest a perspective passage."
+    },
+    {
+      "file": "One_Shot/Lines/Curved_Comets.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Five small arc comets accelerate along curved tangential paths."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Grid_Break.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 9,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "A cross builds from four brackets, then its parts scatter with a delay."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Corkscrew.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "An outlined cross accelerates along a spiral, leaving short angular echoes."
+    },
+    {
+      "file": "BG/Circles/Orbital_Lanes.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Open arc fragments drift independently in alternating directions around the center."
+    },
+    {
+      "file": "BG/Circles/Drifting_Rings.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Four rings drift diagonally with different phases instead of sharing one central shape."
+    },
+    {
+      "file": "BG/Geometry/Parallax_Gates.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Polygonal gates expand at different phases and drift outward, leaving the central corridor open."
+    },
+    {
+      "file": "BG/Geometry/Counterflow_Field.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 12,
+      "colors": [
+        "#277ff4",
+        "#ffffff"
+      ],
+      "description": "Two sparse particle streams pass one another; fade envelopes span 0–100%."
+    },
+    {
+      "file": "BG/Lines/Horizon_Rails.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Separate perspective rail segments pass through the central area at independent phases."
+    },
+    {
+      "file": "BG/Lines/Wave_Filaments.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Five short wave fragments drift along independent paths rather than forming one long line."
+    },
+    {
+      "file": "Shapes/Circles/Split_Orbit.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Two large semicircles move apart and meet again."
+    },
+    {
+      "file": "Shapes/Circles/Concentric_Lock.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "Three concentric rings open gaps at independent phases."
+    },
+    {
+      "file": "Shapes/Circles/Radar_Petals.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Short radar-like arcs travel at different speeds across several radii."
+    },
+    {
+      "file": "Shapes/Circles/Breathing_Lens.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "A circular iris opens and opposing segments rotate without axis stretching."
+    },
+    {
+      "file": "Shapes/Circles/Dot_Corona.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 13,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "Small dots alternate with short arcs around a fixed center."
+    },
+    {
+      "file": "Shapes/Circles/Pendulum_Rings.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Two pendulum-like rings sway with different phases."
+    },
+    {
+      "file": "Shapes/Circles/Circle_Weave.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#00f3e9",
+        "#ffffff"
+      ],
+      "description": "Four circles interweave along smooth curved paths."
+    },
+    {
+      "file": "Shapes/Squares/Folding_Box.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four sides fold toward the center and return to their original positions."
+    },
+    {
+      "file": "Shapes/Squares/Offset_Nest.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Three nested frames shift along different axes while retaining a shared rhythm."
+    },
+    {
+      "file": "Shapes/Squares/Frame_Assembly.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 8,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four side segments assemble a complete square frame."
+    },
+    {
+      "file": "Shapes/Squares/Diamond_Shutter.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 5,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Four triangular shutters open and close a diamond-shaped aperture."
+    },
+    {
+      "file": "Shapes/Squares/Ladder_Block.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 9,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Four corners and an opposing central square form a mechanical assembly with a continuous quarter-turn."
+    },
+    {
+      "file": "Shapes/Squares/Corner_Chase.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four brackets continuously chase one another around a square."
+    },
+    {
+      "file": "Shapes/Squares/Rect_Wave.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#9c32fe",
+        "#ffffff"
+      ],
+      "description": "Three counter-rotating square frames and four outer markers use uniform scale without axis distortion."
+    },
+    {
+      "file": "Shapes/Triangles/Delta_Stack.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three triangles move vertically in opposing phases to form a layered motif."
+    },
+    {
+      "file": "Shapes/Triangles/Triad_Orbit.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#f318e8",
+        "#ffffff"
+      ],
+      "description": "Three small triangles exchange positions around a central axis."
+    },
+    {
+      "file": "Shapes/Triangles/Arrow_Gate.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 2,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Two chevrons converge and separate to open a directional passage."
+    },
+    {
+      "file": "Shapes/Triangles/Triangle_Weave.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three outlines stretch across their own axes and interweave."
+    },
+    {
+      "file": "Shapes/Triangles/Delta_Draw.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 2,
+      "colors": [
+        "#f318e8",
+        "#ffffff"
+      ],
+      "description": "A large triangular outline draws in opposition to an inner contour."
+    },
+    {
+      "file": "Shapes/Triangles/Prism_Scissor.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three pairs of edges open like scissors around the vertices."
+    },
+    {
+      "file": "Shapes/Triangles/Three_Petals.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three triangular petals meet at the center and open radially."
+    },
+    {
+      "file": "Shapes/Hexagons/Hex_Iris.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six angular shutters close and open like a hexagonal iris."
+    },
+    {
+      "file": "Shapes/Hexagons/Cell_Orbit.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 4,
+      "colors": [
+        "#277ff4",
+        "#00f3e9"
+      ],
+      "description": "Three small cells orbit a large central honeycomb cell."
+    },
+    {
+      "file": "Shapes/Hexagons/Facet_Pulse.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Short edges pass a scale pulse around the shell in sequence."
+    },
+    {
+      "file": "Shapes/Hexagons/Hex_Lattice.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Seven cells spread apart and reconnect into a compact honeycomb."
+    },
+    {
+      "file": "Shapes/Hexagons/Segmented_Crown.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six pairs of facets turn in opposite directions around a central opening."
+    },
+    {
+      "file": "Shapes/Hexagons/Hex_Braid.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 8,
+      "colors": [
+        "#277ff4",
+        "#00f3e9"
+      ],
+      "description": "Two hexagons interlock through counter-rotation and small circular offsets; six outer teeth provide rhythm without axis stretching."
+    },
+    {
+      "file": "Shapes/Hexagons/Honeycomb_Draw.json",
+      "role": "Shapes",
+      "duration": 4,
+      "layers": 7,
+      "colors": [
+        "#277ff4",
+        "#00f3e9"
+      ],
+      "description": "A central cell and six outer corners draw with staggered timing."
+    },
+    {
+      "file": "One_Shot/Circles/Double_Shock.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 2,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Two opposing ring shocks combine a short contraction with rapid expansion."
+    },
+    {
+      "file": "One_Shot/Circles/Arc_Spray.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Eight short arcs shoot outward in a rotating fan."
+    },
+    {
+      "file": "One_Shot/Circles/Ring_Drop.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four rings fall from the center along diverging paths."
+    },
+    {
+      "file": "One_Shot/Circles/Halo_Fracture.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "A ring fractures into four large quarters that leave the center."
+    },
+    {
+      "file": "One_Shot/Circles/Bubble_Thread.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Six small rings form two sequential curved threads."
+    },
+    {
+      "file": "One_Shot/Circles/Circle_Pair_Burst.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Three pairs of rings first separate sideways, then accelerate toward the edges."
+    },
+    {
+      "file": "One_Shot/Circles/Expanding_Crescents.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Three expanding crescents turn in sequence and leave the frame."
+    },
+    {
+      "file": "One_Shot/Squares/Box_Flip.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 2,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Two square shells open through horizontal flattening and move toward the edges."
+    },
+    {
+      "file": "One_Shot/Squares/Bracket_Stream.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Three pairs of brackets form a sequential lateral passage."
+    },
+    {
+      "file": "One_Shot/Squares/Frame_Rupture.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Eight separate frame edges launch along their normals from a square starting pattern."
+    },
+    {
+      "file": "One_Shot/Squares/Tile_Rain.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Six small frames leave the center in falling rows."
+    },
+    {
+      "file": "One_Shot/Squares/Square_Zipper.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Two interlocking frame contours separate like an opening zipper."
+    },
+    {
+      "file": "One_Shot/Squares/Diamond_Spray.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Four diamonds fly diagonally with a slight twist."
+    },
+    {
+      "file": "One_Shot/Squares/Gate_Launch.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#9c32fe"
+      ],
+      "description": "Two rectangular gates expand on opposite sides of the center and move toward the corners."
+    },
+    {
+      "file": "One_Shot/Triangles/Delta_Fanout.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Five narrow triangular sectors open into a fan and accelerate."
+    },
+    {
+      "file": "One_Shot/Triangles/Arrow_Chain.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three sequential chevrons pass through the center along one directional path."
+    },
+    {
+      "file": "One_Shot/Triangles/Needle_Burst.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three pairs of long triangular needles launch radially from the center."
+    },
+    {
+      "file": "One_Shot/Triangles/Prism_Spinout.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Two triangular shells rotate near the center before flying tangentially outward."
+    },
+    {
+      "file": "One_Shot/Triangles/Wing_Split.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Four pairs of triangular wings open symmetrically and accelerate left and right."
+    },
+    {
+      "file": "One_Shot/Triangles/Triad_Wave.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Three groups of small triangles emit successive radial waves."
+    },
+    {
+      "file": "One_Shot/Triangles/Shard_Cascade.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#f318e8"
+      ],
+      "description": "Six outlined triangular shards fall through staggered phases toward diagonal corners."
+    },
+    {
+      "file": "One_Shot/Hexagons/Cell_Burst.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six cells at the vertices of a hexagon scatter around the center."
+    },
+    {
+      "file": "One_Shot/Hexagons/Facet_Streaks.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 12,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six elongated hexagonal frames pull outward along the facet axes."
+    },
+    {
+      "file": "One_Shot/Hexagons/Hex_Pulse_Chain.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Three hexagonal impulses pass through a perspective tunnel without sharing one center."
+    },
+    {
+      "file": "One_Shot/Hexagons/Honeycomb_Spread.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Three rows of honeycomb cells open sideways and accelerate diagonally."
+    },
+    {
+      "file": "One_Shot/Hexagons/Hex_Spiral.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Four hexagonal echoes spiral outward while rotating."
+    },
+    {
+      "file": "One_Shot/Hexagons/Radial_Cells.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six pairs of small cells move along six radial directions from the center."
+    },
+    {
+      "file": "One_Shot/Hexagons/Facet_Peel.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six facet pairs peel away from a shell and rotate like shutters."
+    },
+    {
+      "file": "One_Shot/Lines/Pinwheel_Stroke.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Six short propeller strokes turn and fly tangentially outward."
+    },
+    {
+      "file": "One_Shot/Lines/V_Rockets.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four narrow V-shaped trails accelerate along diagonals."
+    },
+    {
+      "file": "One_Shot/Lines/Staggered_Rays.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 12,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Twelve rays in different phases launch one after another."
+    },
+    {
+      "file": "One_Shot/Lines/Line_Zipper.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four interlocking strokes separate along perpendicular paths through the center."
+    },
+    {
+      "file": "One_Shot/Lines/Bent_Burst.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Eight broken lines straighten and accelerate toward the edges."
+    },
+    {
+      "file": "One_Shot/Lines/Parallel_Flash.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 3,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Three groups of parallel strokes cross the center from different sides."
+    },
+    {
+      "file": "One_Shot/Lines/Comet_Fan.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 7,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Five curved trails open outward from one vertex into a fan."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Twist.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 1,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Five narrow crosses twist, enlarge and scatter toward the corners."
+    },
+    {
+      "file": "One_Shot/Crosses/Plus_Arms.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Four pairs of plus-sign arms separate from the center along the axes."
+    },
+    {
+      "file": "One_Shot/Crosses/Checker_Release.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Five crosses at different scales enter in sequence and accelerate to different sides."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Waves.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Three waves of four crosses expand at alternating angles."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Compass.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 8,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Four pairs of crosses travel in perpendicular directions, leaving a diagonal opening."
+    },
+    {
+      "file": "One_Shot/Crosses/Split_Plus.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 2,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Two large crosses initially cross over one another, then rotate and accelerate apart."
+    },
+    {
+      "file": "One_Shot/Crosses/Cross_Chain.json",
+      "role": "One_Shot",
+      "duration": 2,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Five crosses emit in sequence along an S-shaped path from the center."
+    },
+    {
+      "file": "BG/Circles/Slow_Precession.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Short independent arcs flow from the edges and reappear invisibly at independent phases."
+    },
+    {
+      "file": "BG/Circles/Ring_Archipelago.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Small groups of three rings drift along independent diagonal paths without a large central structure."
+    },
+    {
+      "file": "BG/Circles/Vertical_Orbits.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Five open ellipses drift vertically around one another with different phases, readable in portrait Fill."
+    },
+    {
+      "file": "BG/Circles/Twin_Lenses.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 4,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Two pairs of short orbital fragments pass in opposing directions without a large fixed lens."
+    },
+    {
+      "file": "BG/Circles/Arc_Constellation.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 7,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Independent short arcs drift like orbital dust, with small satellite strokes."
+    },
+    {
+      "file": "BG/Circles/Ring_Current.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Circular arcs drift slowly through their radii with a small rotation; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Circles/Lunar_Lanes.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Short lunar arcs flow toward alternating edges without forming a static outline."
+    },
+    {
+      "file": "BG/Geometry/Falling_Diamonds.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 10,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Rare diamonds fall through the frame with small rotations; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Geometry/Zigzag_Drifters.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 7,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Short broken lines and small diamonds travel slowly along diagonal paths without global zigzag reversal."
+    },
+    {
+      "file": "BG/Geometry/Breathing_Cells.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six cells drift along diagonal paths with individual phases, including two central paths visible in portrait framing."
+    },
+    {
+      "file": "BG/Geometry/Passing_Windows.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six rectangular windows pass along diagonals at alternating speeds; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Geometry/Tilted_Grid.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 7,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Independent grid segments travel diagonally with a wide open center."
+    },
+    {
+      "file": "BG/Geometry/Loose_Fragments.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 10,
+      "colors": [
+        "#277ff4",
+        "#ffffff"
+      ],
+      "description": "Individual triangular fragments drift and rotate slowly; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Geometry/Polygon_Orbits.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#277ff4"
+      ],
+      "description": "Six triangles and hexagons follow wide elliptical paths; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Lines/Parallel_Current.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Six short parallel strokes flow in alternating directions; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Lines/Sine_Horizon.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 5,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Several short horizontal strokes drift independently without one long sine-wave horizon."
+    },
+    {
+      "file": "BG/Lines/Diagonal_Shuttles.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Eight diagonal strokes cross the frame with offsets; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Lines/Peripheral_Rays.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 7,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Several independent arcs and short diagonal strokes pass through the central area."
+    },
+    {
+      "file": "BG/Lines/Ribbon_Lanes.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four short broken ribbons drift independently in alternating directions."
+    },
+    {
+      "file": "BG/Lines/Corner_Streams.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 8,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Four corners emit rare rays with alternating phases; peak authored opacity is 100%."
+    },
+    {
+      "file": "BG/Lines/Tension_Lines.json",
+      "role": "BG",
+      "duration": 8,
+      "layers": 6,
+      "colors": [
+        "#00f3e9"
+      ],
+      "description": "Six pairs of short strokes drift at different phases with a slight tilt, leaving open space around the center."
+    }
+  ]
+}

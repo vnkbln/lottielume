@@ -1,0 +1,18 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+assets/demo/*.json -text
+*.patch text eol=lf
+*.yml text eol=lf
+*.hpp text eol=lf
+*.cpp text eol=lf
+*.in text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.webp binary
+*.gif binary
+*.mp4 binary
+*.ttf binary
+*.otf binary

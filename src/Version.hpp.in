@@ -1,0 +1,6 @@
+#pragma once
+namespace lottie::release {
+inline constexpr unsigned major = @LOTTIE_FFGL_MAJOR@;
+inline constexpr unsigned minor = @LOTTIE_FFGL_MINOR@;
+inline constexpr const char *version = "@LOTTIE_RELEASE_VERSION@";
+}

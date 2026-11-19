@@ -1,0 +1,142 @@
+[
+  {
+    "file": "BG/Circles/Quiet_Depth.json",
+    "reference": true,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 7.3516
+  },
+  {
+    "file": "BG/Geometry/Orbital_Dust.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.6054
+  },
+  {
+    "file": "BG/Circles/Orbital_Lanes.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.4605
+  },
+  {
+    "file": "BG/Circles/Drifting_Rings.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.805
+  },
+  {
+    "file": "BG/Geometry/Parallax_Gates.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 1.0864
+  },
+  {
+    "file": "BG/Lines/Horizon_Rails.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.3941
+  },
+  {
+    "file": "BG/Lines/Wave_Filaments.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2614
+  },
+  {
+    "file": "BG/Circles/Slow_Precession.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 1.355
+  },
+  {
+    "file": "BG/Circles/Ring_Archipelago.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.8895
+  },
+  {
+    "file": "BG/Circles/Vertical_Orbits.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.6365
+  },
+  {
+    "file": "BG/Circles/Twin_Lenses.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.5749
+  },
+  {
+    "file": "BG/Circles/Arc_Constellation.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.3073
+  },
+  {
+    "file": "BG/Circles/Lunar_Lanes.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2968
+  },
+  {
+    "file": "BG/Geometry/Zigzag_Drifters.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2784
+  },
+  {
+    "file": "BG/Geometry/Breathing_Cells.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.5845
+  },
+  {
+    "file": "BG/Geometry/Tilted_Grid.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.7744
+  },
+  {
+    "file": "BG/Lines/Sine_Horizon.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2415
+  },
+  {
+    "file": "BG/Lines/Peripheral_Rays.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.1936
+  },
+  {
+    "file": "BG/Lines/Ribbon_Lanes.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2623
+  },
+  {
+    "file": "BG/Lines/Tension_Lines.json",
+    "reference": false,
+    "portrait_visible_fraction": 1.0,
+    "longest_blank_interval_seconds": 0.0,
+    "mean_ink_area_percent": 0.2398
+  }
+]
