@@ -27,7 +27,7 @@ Download the Windows plugin ZIP from [Releases](https://github.com/vnkbln/lottie
 2. Add it in Preferences → Video → FFGL Plugin Directories and restart Resolume.
 3. Find Lottie Player and Lottie Emitter in Sources.
 
-Requires Windows x64 and OpenGL 4.1. Native-host testing used **Arena 7.22**; other versions are not comprehensively tested. For missing runtime components, install Microsoft's [Visual C++ v14 x64 runtime](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
+Requires Windows x64 and OpenGL 4.1. Native-host testing used **Arena 7.29**; other versions are not comprehensively tested. For missing runtime components, install Microsoft's [Visual C++ v14 x64 runtime](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist).
 
 ThorVG, codecs and expressions are linked into the two DLLs. Do not install the development CPU fallback alongside GPU Player: both use LT01. Remove the retired standalone Playlist prototype if installed.
 
